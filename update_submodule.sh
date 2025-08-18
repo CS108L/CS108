@@ -4,7 +4,7 @@ set -euo pipefail
 # Usage: ./update_submodule.sh [branch]
 # Default branch is "main"
 
-SUBMODULE_PATH="instructor_update"
+SUBMODULE_PATH="../instructor_update"
 BRANCH="${1:-main}"
 
 echo "Syncing submodules…"
