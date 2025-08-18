@@ -1,4 +1,4 @@
 [submodule "instructor_updates"]
 	path = instructor_updates
-	url = git@github.com:UNM-Courses/CS108.git
+	url = git@github.com:UNM-Courses/instructor_update.git
     branch = main
