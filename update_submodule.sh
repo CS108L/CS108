@@ -4,8 +4,15 @@ set -euo pipefail
 # Usage: ./update_submodule.sh [branch]
 # Default branch is "main"
 
+cd /Users/soheila/Documents/GitHub/CS108
+
 SUBMODULE_PATH="./instructor_updates"
 BRANCH="${1:-main}"
+
+# Point the submodule to the repo URL and branch
+
+git submodule set-url instructor_updates https://github.com/UNM-Courses/instructor_updates.git
+git config -f .gitmodules submodule.instructor_updates.branch main
 
 echo "Syncing submodules…"
 git submodule sync
