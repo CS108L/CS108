@@ -1,4 +1,4 @@
-# CS108 – Computer Science for All
+# CS108 – Computer Science for All - Main Repository
 
 University of New Mexico, Department of Computer Science, Fall 2025
 
